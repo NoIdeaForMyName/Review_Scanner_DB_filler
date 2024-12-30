@@ -185,7 +185,7 @@ def reviews_media(n):
     rev_ids = get_all_ids(Review)
     for i in range(n):
         review_fk = random.choice(rev_ids)
-        path = f'image{random.randint(0, IMAGES_NB-1)}.png'
+        path = f'{IMG_NAME_FORMAT}{random.randint(1, IMAGES_NB)}.{IMG_EXTENSION}'
         rows.append(
             {
                 'media_review_fk': review_fk,
