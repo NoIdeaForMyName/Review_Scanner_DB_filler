@@ -5,3 +5,5 @@
 db_credentials.py
 barcodes.txt
 users_credentials.json
+
+.DS_Store
