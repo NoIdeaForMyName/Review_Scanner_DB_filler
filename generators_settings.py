@@ -2,7 +2,7 @@ from datetime import datetime
 
 SEED = 43
 BARCODE_LENGTH = 13
-IMAGES_NB = 50
+IMAGES_NB = 700
 IMG_NAME_FORMAT = 'image-'
 IMG_EXTENSION = 'jpg'
 MAX_TEXT_CHARACTER_NUMBER = 5000
